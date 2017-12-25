@@ -7,3 +7,7 @@ Technologies:
 - Body-Parser
 - Passport
 - Cors
+
+
+Local Database:
+- gear-swap-db

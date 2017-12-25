@@ -1,0 +1,22 @@
+[
+
+  {
+    "username": "spenser.holstein@gmail.com",
+    "password": "poopy123",
+    "photo_url": "https://blog.dar.org/sites/default/files/default_images/icon-user-default.png",
+    "inventory": [
+      "camera", "lights", "microphone"
+    ]
+  },
+
+  {
+    "username": "rody.weinberg@gmail.com",
+    "password": "weewee123",
+    "photo_url": "https://blog.dar.org/sites/default/files/default_images/icon-user-default.png",
+    "inventory": [
+      "lens", "monitor"
+    ]
+  }
+
+
+]
