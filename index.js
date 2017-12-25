@@ -96,3 +96,6 @@ app.delete("api/users/:username/delete", (req, res) => {
       res.json("/users")
     })
 })
+
+// root homepage redirect
+app.get('/', (req, res) => res.redirect('/api/users'))
