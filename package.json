@@ -1,0 +1,20 @@
+{
+  "name": "gear-swap-back",
+  "version": "1.0.0",
+  "description": "Camera Gear Community Rental App -  Back End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpenBot/gear-swap-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpenBot/gear-swap-back/issues"
+  },
+  "homepage": "https://github.com/SpenBot/gear-swap-back#readme"
+}
