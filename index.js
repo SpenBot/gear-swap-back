@@ -99,3 +99,14 @@ app.delete("api/users/:username/delete", (req, res) => {
 
 // root homepage redirect
 app.get('/', (req, res) => res.redirect('/api/users'))
+
+
+// ZIPCODE FOR USERS ROUTES //
+
+// get all users by zipcode //
+app.get("/api/userszipcode/:zipcode", (req, res) => {
+  User.find({zipcode: req.params.zipcode})
+    .then((users) => {
+      res.json(users)
+    })
+})
