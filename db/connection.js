@@ -7,8 +7,17 @@
 var mongoose = require('mongoose')
 
 
+
 //// establish connection to database ////
-mongoose.connect('mongodb://localhost/gear-swap-db');
+// mongoose.connect('mongodb://localhost/gear-swap-db');
+
+if (process.env.NODE_ENV == "production") {
+  mongoose.connect(process.env.MLAB_URL)
+} else {
+  mongoose.connect("mongodb://localhost/gear-swap-db");
+}
+
+
 
 
 //// console log database connection status ////

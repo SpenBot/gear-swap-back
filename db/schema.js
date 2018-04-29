@@ -6,17 +6,28 @@ const mongoose = require('./connection.js')
 // CREATING THE SCHEMA //
 const Schema = mongoose.Schema
 
-const UserSchema = new Schema({
-  "username": String,
-  "zipcode": Number,
-  "password": String,
-  "photo_url": String,
-  "inventory": []
+const ReservationSchema = new Schema({
+  "provider": String,
+  "renter": String,
+  "item": String,
+  "date": String,
 })
 
-// EXPORT MODULE //
+const UserSchema = new Schema({
+  "username": String,
+  "password": String,
+  "zipcode": Number,
+  "rating": Number,
+  "que": Number,
+  "photo_url": String,
+  "inventory": [],
+  // "reservations": [ReservationSchema]
+})
 
-// export schemas //
+
+
+// EXPORT MODULE //
 module.exports = {
-  UserSchema
+  UserSchema,
+  ReservationSchema
 }

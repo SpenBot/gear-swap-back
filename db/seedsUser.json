@@ -4,6 +4,7 @@
   {
     "username": "spenser.holstein@gmail.com",
     "zipcode": 11530,
+    "rating": 3,
     "password": "poopy123",
     "photo_url": "https://blog.dar.org/sites/default/files/default_images/icon-user-default.png",
     "inventory": [
@@ -32,6 +33,7 @@
   {
     "username": "rody.dog@gmail.com",
     "zipcode": 20815,
+    "rating": 5,
     "password": "weewee123",
     "photo_url": "https://blog.dar.org/sites/default/files/default_images/icon-user-default.png",
     "inventory": [
@@ -54,6 +56,7 @@
   {
     "username": "montyy.mouse@gmail.com",
     "zipcode": 20815,
+    "rating": 4,    
     "password": "almond123",
     "photo_url": "https://blog.dar.org/sites/default/files/default_images/icon-user-default.png",
     "inventory": [

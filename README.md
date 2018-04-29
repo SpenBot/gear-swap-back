@@ -11,3 +11,5 @@ Technologies:
 
 Local Database:
 - gear-swap-db
+
+node db/seeds.js
